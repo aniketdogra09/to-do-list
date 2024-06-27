@@ -1,0 +1,2 @@
+The following points need your attention :-
+1. The task typed and added to the list needs to be cleared from the input field.
