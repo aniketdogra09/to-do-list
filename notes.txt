@@ -1,2 +1,2 @@
 The following points need your attention :-
-1. The task typed and added to the list needs to be cleared from the input field.
+1. After adding flex feature to the li for better display, the ol has lost its list-style-type: decimal property even when it is included in the css.

@@ -17,7 +17,7 @@
     width: 360px;
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    background-color: white;
+    background-color: rgb(252, 198, 206);
 }
 
 .container-header{
@@ -34,7 +34,8 @@
 .task-text{
     height: 28px;
     color: rgb(97, 93, 93);
-    border: 1px solid lightgrey
+    border: 1px solid lightgrey;
+    border-radius: 6px;
 }
 
 .btn{
@@ -50,6 +51,9 @@
 }
 
 
+ol{
+    list-style-type: decimal;
+}
 
 .task-list{
     display: flex;
@@ -58,7 +62,24 @@
     border-radius: 8px;
     padding: 10px;
     width: 360px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 3px;
+    background-color: rgb(251, 251, 102);
 
 }
+
+.task-added{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li .btn-delete{
+    border: none;
+    border-radius: 50%;
+    background-color: black;
+    color: rgb(251, 251, 102);
+    padding: 1.6px 5.8px;
+    text-align: center;
+}
+
